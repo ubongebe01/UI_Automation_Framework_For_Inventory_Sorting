@@ -1,0 +1,121 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-10-26T14:36:55.105Z",
+    "end": "2023-10-26T14:37:11.557Z",
+    "duration": 16452,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f46178c9-c411-4d1d-9f73-dc0b4e10ca56",
+      "title": "",
+      "fullFile": "cypress\\e2e\\UI_Test_Automation_Framework.cy.js",
+      "file": "cypress\\e2e\\UI_Test_Automation_Framework.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3fcaf503-629a-4ebf-aa33-2561666d12ca",
+          "title": "Inventory Sorting",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should sort items by name (A -> Z)",
+              "fullTitle": "Inventory Sorting should sort items by name (A -> Z)",
+              "timedOut": null,
+              "duration": 7504,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "page.sortByNameAsc();\npage.verifyItemsSortedByNameAsc();",
+              "err": {},
+              "uuid": "dbedab3f-a32a-4c24-b568-b49829e68a35",
+              "parentUUID": "3fcaf503-629a-4ebf-aa33-2561666d12ca",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should sort items by name (Z -> A)",
+              "fullTitle": "Inventory Sorting should sort items by name (Z -> A)",
+              "timedOut": null,
+              "duration": 3051,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "page.sortByNameDesc();\npage.verifyItemsSortedByNameDesc();",
+              "err": {},
+              "uuid": "092b6dea-e11f-4af9-b487-b03b15e47c21",
+              "parentUUID": "3fcaf503-629a-4ebf-aa33-2561666d12ca",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dbedab3f-a32a-4c24-b568-b49829e68a35",
+            "092b6dea-e11f-4af9-b487-b03b15e47c21"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10555,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
