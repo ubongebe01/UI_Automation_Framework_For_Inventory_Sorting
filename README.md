@@ -1,6 +1,6 @@
 # UI_Automation_Framework_For_Inventory_Sorting
 
-This web automation framework is built with Cypress using JavaScript. It is built basically for automating the flow or process of e-commerce inventory sorting with few test scenarios. The web application used for demonstrating the working of this web testing framework is https://www.saucedemo.com/. This test ensures that the automation framework is able to carter for the sorting of goods in the inventory portal in both ascending and descending order. Below are the steps to clone and run this test locally and on CI.
+This web automation framework is built with Cypress using JavaScript. It is built basically for automating the flow or process of e-commerce inventory sorting with few test scenarios. The web application used for demonstrating the working of this web testing framework is https://www.saucedemo.com/. This test ensures that the automation framework is able to cater for the sorting of goods in the inventory portal in both ascending and descending order. Below are the steps to clone and run this test locally and on CI.
 
 #Steps to run this Cypress automated Inventory Test Framework locally  and on CI:
 
